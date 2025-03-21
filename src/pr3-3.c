@@ -13,7 +13,7 @@ int main()
 
     ptr = (int *)malloc(n * sizeof(int));
 
-    printf("Enter array elements: ");
+    printf("Enter array elements:\n");
     for (int i = 0; i < n; i++) {
         scanf("%d", &ptr[i]);
         if (ptr[i] < 0)

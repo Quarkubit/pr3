@@ -3,7 +3,9 @@
 
 int main()
 {
-    float *ptrA, *ptrB, *ptrC;
+    float *ptrA;
+    float *ptrB;
+    float *ptrC;
 
     ptrA = (float *)malloc(sizeof(float));
     ptrB = (float *)malloc(sizeof(float));
